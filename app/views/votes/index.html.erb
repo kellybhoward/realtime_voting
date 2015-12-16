@@ -1,0 +1,32 @@
+<div id="container"></div><!-- highcharts get loaded here -->
+<h3>What is Your Favorite Language?</h3>
+<table>
+    <tr>
+        <td>PHP</td>
+        <td>
+            <form action="/votes" method="post">
+                <input type="hidden" name="id" value="php"/>
+                <input type="submit" value="Vote"/>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Ruby</td>
+        <td>
+            <form action="/votes" method="post">
+                <input type="hidden" name="id" value="ruby"/>
+                <input id="ruby" type="submit" value="Vote">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>Javascript</td>
+        <td>
+            <form action="/votes" method="post">
+                <input type="hidden" name="id" value="js"/>
+                <input id="javascript" type="submit"value="Vote">
+            </form>
+        </td>
+    </tr>
+</table>
+<p>View source code here: <a href="https://github.com/kellybhoward" target="_blank"><%= image_tag "git.png", :class=>"git_logo"%></a></p>
