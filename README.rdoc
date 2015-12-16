@@ -1,7 +1,11 @@
 Ruby: 2.2.1
+
 Rails: 4.1.8 -> gems: no extra gems needed
+
 Node: 4.2.2 -> package.json dependencies: express, sockets, bodyparser
+
 DB: built-in SQLite3
+
 API: Highcharts (http://www.highcharts.com/)
 
 
